@@ -1,0 +1,1 @@
+SELECT MIN("contrast") AS 'Maximum Contrast', "english_title" FROM "views"

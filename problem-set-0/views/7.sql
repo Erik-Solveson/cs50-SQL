@@ -1,0 +1,1 @@
+SELECT "english_title", "brightness" FROM "views" ORDER BY "brightness" LIMIT 5

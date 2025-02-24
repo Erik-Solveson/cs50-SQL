@@ -1,0 +1,1 @@
+SELECT "english_title" AS 'English Translated Title' FROM "views" WHERE "brightness" > .5 LIMIT 5 

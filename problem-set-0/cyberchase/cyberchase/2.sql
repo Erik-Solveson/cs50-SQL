@@ -1,1 +1,1 @@
-SELECT "title", "season", "air_date" FROM "episodes" ORDER BY "air_date"
+SELECT "title", "season", "air_date" , MIN( "episode_in_season") FROM "episodes" 
