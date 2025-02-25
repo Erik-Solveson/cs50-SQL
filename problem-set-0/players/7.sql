@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "players" WHERE ("throws" = 'L' AND "bats" = 'R') OR ("throws" = 'R' AND "bats" = 'L')

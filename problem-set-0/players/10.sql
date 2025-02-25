@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "players" WHERE "bats" = 'L' AND "debut" < '1900-01-01'

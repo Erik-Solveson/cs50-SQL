@@ -1,0 +1,1 @@
+SELECT "first_name", "last_name", "debut", "birth_city" FROM "players" WHERE "birth_city" LIKE '%pittsburgh%' ORDER BY "debut", "first_name", "last_name"
