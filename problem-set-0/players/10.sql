@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM "players" WHERE "bats" = 'L' AND "debut" < '1900-01-01'
+SELECT COUNT("bats"='L'), COUNT("bats"='R') FROM "players" WHERE  "debut" < '1900-01-01'

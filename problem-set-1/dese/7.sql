@@ -1,0 +1,1 @@
+SELECT "schools"."name" AS 'school name', "districts"."name" AS 'district name' FROM "schools" JOIN "districts" ON "districts"."id" = "schools"."district_id" WHERE "districts"."name" = 'Cambridge'

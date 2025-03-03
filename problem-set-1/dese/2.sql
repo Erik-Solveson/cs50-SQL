@@ -1,0 +1,1 @@
+SELECT "name" FROM "districts" WHERE "name" NOT LIKE '%non-op%'
