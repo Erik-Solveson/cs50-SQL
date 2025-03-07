@@ -1,0 +1,6 @@
+SELECT SUM("salary")/SUM("H") AS 'Hits per dollar', "first_name", "last_name" FROM "players"
+JOIN "salaries" ON "players"."id" = "salaries"."player_id"
+JOIN "performances" ON "players"."id" = "performances"."player_id"
+WHERE "performances"."year" = 2001 AND "H" > 0 AND "performances"."year" = "salaries"."year"
+GROUP BY "first_name"
+ORDER BY "Hits per dollar", "first_name", "last_name"
